@@ -1,12 +1,14 @@
 module auth-service
 
-go 1.25.0
+go 1.25.5
 
 require (
 	github.com/SSSagatov/SaMix v0.0.1
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	google.golang.org/grpc v1.81.1
 )
+
+replace github.com/SSSagatov/SaMix => ../
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
